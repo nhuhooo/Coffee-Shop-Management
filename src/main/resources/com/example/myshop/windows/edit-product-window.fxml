@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="anchor" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myshop.controllers.EditProductController">
+    <children>
+        <Label layoutX="71.0" layoutY="140.0" text="Product Name" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+        <TextField fx:id="nameInput" layoutX="182.0" layoutY="137.0" styleClass="butlg" stylesheets="@../css/style.css" />
+        <Label layoutX="84.0" layoutY="179.0" text="Price" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+        <TextField fx:id="priceInput" layoutX="182.0" layoutY="175.0" styleClass="butlg" stylesheets="@../css/style.css" />
+        <Label layoutX="218.0" layoutY="54.0" text="Edit Product" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font></Label>
+        <Button fx:id="editBtn" layoutX="273.0" layoutY="320.0" mnemonicParsing="false" styleClass="butlg" stylesheets="@../css/style.css" text="Save" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+        <Label layoutX="70.0" layoutY="219.0" text="Category" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+        <Label layoutX="72.0" layoutY="257.0" text="Quantity" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+        <ImageView fx:id="imageView" fitHeight="136.0" fitWidth="122.0" layoutX="407.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../pic/add.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="quantityInput" layoutX="182.0" layoutY="253.0" styleClass="butlg" stylesheets="@../css/style.css" />
+        <ComboBox fx:id="categoryComboBox" layoutX="182.0" layoutY="215.0" prefHeight="26.0" prefWidth="160.0" styleClass="butlg" stylesheets="@../css/style.css" />
+        <Button fx:id="selectImageButton" layoutX="437.0" layoutY="239.0" mnemonicParsing="false" styleClass="butlg" stylesheets="@../css/style.css" text="Insert" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="anchor" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myshop.controllers.CreateOrderController">
+   <children>
+      <TableView fx:id="tableView" layoutX="39.0" layoutY="80.0" prefHeight="267.0" prefWidth="439.0" stylesheets="@../css/style.css">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="nameCol" prefWidth="118.39990997314453" text="Product Name" />
+            <TableColumn fx:id="priceCol" prefWidth="77.5999755859375" text="Price" />
+            <TableColumn fx:id="quantityCol" prefWidth="85.60003662109375" text="Quantity" />
+        </columns>
+      </TableView>
+      <ListView fx:id="listView" layoutX="528.0" layoutY="69.0" opacity="0.57" prefHeight="267.0" prefWidth="250.0" styleClass="anchorbackgr1" stylesheets="@../css/style.css" />
+      <Label layoutX="40.0" layoutY="33.0" text="Product List" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Label layoutX="534.0" layoutY="31.0" text="Order" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="430.0" text="Time" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Label fx:id="dateTime" layoutX="97.0" layoutY="430.0" text="ss" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Label layoutX="39.0" layoutY="528.0" text="Total" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Label fx:id="totalPrice" layoutX="694.0" layoutY="352.0" text="Label" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Label>
+      <Button fx:id="okBtn" layoutX="689.0" layoutY="532.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" styleClass="butlg" text="OK" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Button>
+      <Button fx:id="cancelBtn" layoutX="595.0" layoutY="532.0" mnemonicParsing="false" styleClass="butlg" stylesheets="@../css/style.css" text="Cancel" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font></Button>
+      <ComboBox fx:id="choose" layoutX="323.0" layoutY="32.0" prefHeight="28.0" prefWidth="152.0" promptText="Select by category" styleClass="butlg" stylesheets="@../css/style.css" />
+      <Label layoutX="36.0" layoutY="462.0" text="Discount" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="voucherprice" layoutX="212.0" layoutY="487.0" prefHeight="23.0" prefWidth="100.0" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalPrice2" layoutX="103.0" layoutY="527.0" prefHeight="23.0" prefWidth="73.0" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="MINUS" layoutX="184.0" layoutY="486.0" prefHeight="23.0" prefWidth="43.0" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameInput" layoutX="35.0" layoutY="485.0" prefHeight="26.0" prefWidth="79.0" stylesheets="@../css/style.css" />
+      <Button fx:id="okName" layoutX="119.0" layoutY="484.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="41.0" styleClass="butlg" stylesheets="@../css/style.css" text="OK" />
+      <Label fx:id="MINUS1" layoutX="630.0" layoutY="352.0" prefHeight="23.0" prefWidth="43.0" textFill="#5d534a">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

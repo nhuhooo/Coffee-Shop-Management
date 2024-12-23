@@ -1,0 +1,79 @@
+.anchor {
+    -fx-background-color: rgb(248, 245, 235);
+    -fx-background-radius: 20;
+
+
+}
+.anchorbackgr{
+    -fx-background-color: rgb(209, 211, 194);
+}
+.anchorbackgr1 {
+    -fx-background-color: rgb(93, 83, 74);
+    -fx-background-radius: 20;
+}
+
+.anchorbackgr2 {
+    -fx-background-color: rgb(209, 211, 194);
+    -fx-background-radius: 20;
+}
+
+.anchorbackgr3 {
+    -fx-background-color: #5d534a;
+    -fx-background-radius: 20;
+
+}
+
+.anchorbackgr4 {
+    -fx-background-color: #9e9384;
+    -fx-background-radius: 20;
+
+}
+
+.anchorbackgr5 {
+    -fx-background-color: #fff0e3;
+    -fx-background-radius: 20;
+
+}
+.anchorbackgr6 {
+    -fx-background-color: #fff0e3;
+    -fx-background-radius: 20;
+}
+
+.butlg{
+    -fx-background-color: rgb(248, 245, 235);
+    -fx-border-color: rgb(93, 83, 74);
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+.bttnmn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+
+}
+.butlg:hover{
+    -fx-background-color: rgb(93, 83, 74);
+    -fx-text-fill: rgb(248, 245, 235);
+}
+.bttnmn:hover{
+    -fx-background-color: rgb(248, 245, 235);
+    -fx-text-fill: rgb(93, 83, 74);
+}
+
+.image{
+    -fx-border-radius: 38;
+    -fx-background-radius: #000000;
+
+}
+
+.-item {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}

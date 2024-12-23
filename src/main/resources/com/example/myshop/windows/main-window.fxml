@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hBox" prefHeight="827.0" prefWidth="1436.0" styleClass="anchor" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myshop.controllers.MainWindowController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="771.0" prefWidth="176.0" style="-fx-background-color: rgb(93, 83, 74);" stylesheets="@../css/style.css">
+         <children>
+            <ImageView fitHeight="201.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pic/cir.png" />
+               </image>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <ToggleButton fx:id="dashBoardBtn" mnemonicParsing="false" prefHeight="54.0" prefWidth="237.0" styleClass="bttnmn" stylesheets="@../../../../../target/classes/com/example/myshop/css/css.css" text="Dashboard" textFill="#f8f5eb">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </ToggleButton>
+            <ToggleButton fx:id="productsBtn" mnemonicParsing="false" prefHeight="3.0" prefWidth="184.0" styleClass="bttnmn" stylesheets="@../../../../../target/classes/com/example/myshop/css/css.css" text="Product" textFill="#f8f5eb">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="ordersBtn" mnemonicParsing="false" prefHeight="9.0" prefWidth="184.0" styleClass="bttnmn" stylesheets="@../../../../../target/classes/com/example/myshop/css/css.css" text="Order" textFill="#f8f5eb">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="disBtn" mnemonicParsing="false" prefHeight="3.0" prefWidth="184.0" styleClass="bttnmn" stylesheets="@../../../../../target/classes/com/example/myshop/css/css.css" text="Discount" textFill="#f8f5eb">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="statsBtn" mnemonicParsing="false" prefHeight="0.0" prefWidth="184.0" styleClass="bttnmn" stylesheets="@../../../../../target/classes/com/example/myshop/css/css.css" text="Statistic" textFill="#f8f5eb">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ToggleButton>
+            <Button fx:id="logoutBtn" alignment="BOTTOM_CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="208.0" styleClass="bttnmn" stylesheets="@../css/css.css" text="Log out" textFill="#fffdf7" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="180.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <ScrollPane prefHeight="885.0" prefWidth="1286.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1676.0" prefWidth="1269.0">
+               <children>
+                  <ImageView fitHeight="707.0" fitWidth="1243.0" layoutX="-4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pic/3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="705.0" fitWidth="1251.0" layoutX="-1.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pic/1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</HBox>
